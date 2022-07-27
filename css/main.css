@@ -1,0 +1,689 @@
+.container {
+  padding: 0 1.5rem;
+  margin: 0;
+  overflow: hidden;
+}
+
+.memberships-container {
+  padding: 0 6rem;
+  margin: 0;
+  overflow: hidden;
+}
+
+.section-title {
+  font-family: "Bebas Neue", cursive;
+  font-size: 2rem;
+  display: block;
+  padding: 1rem 0;
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: rgb(230, 21, 147);
+}
+
+.section-title-light {
+  font-family: "Bebas Neue", cursive;
+  font-size: 2rem;
+  display: block;
+  padding: 1rem 0;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.sub-title {
+  font-family: "Bebas Neue", cursive;
+  font-size: 2rem;
+  display: block;
+  padding: 1rem 0;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: rgb(230, 21, 147);
+}
+
+.text-primary {
+  color: #000;
+  font-weight: 1000;
+}
+
+.text-secondary {
+  color: #ccc;
+}
+
+.text-logo {
+  font-family: "Orbitron", sans-serif;
+  background-color: #000;
+  color: rgb(230, 21, 147);
+  padding: 0.5rem;
+  border-radius: 10px;
+  text-transform: none;
+}
+.text-logo:hover {
+  cursor: pointer;
+}
+
+#input-field {
+  font-family: "Lato", sans-serif;
+  font-size: 1.2rem;
+}
+
+.bottom-line {
+  height: 2px;
+  width: 3rem;
+  background-color: rgb(230, 21, 147);
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+.lead {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  font-family: "Lato", sans-serif;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.cite {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  font-family: "Lato", sans-serif;
+  color: rgb(230, 21, 147);
+  font-size: 1.5rem;
+}
+
+.clr {
+  clear: both;
+}
+
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.py-4 {
+  padding: 4rem 0;
+}
+
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.mb-3 {
+  margin-bottom: 3rem;
+}
+
+.mb-4 {
+  margin-bottom: 4rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.7rem 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: none;
+  font-family: "Bebas Neue", cursive;
+  font-size: 1.5rem;
+}
+
+.btn-primary {
+  background-color: rgb(230, 21, 147);
+  color: #fff;
+}
+
+.btn-light {
+  background-color: #fff;
+  color: rgb(230, 21, 147);
+}
+
+.btn-dark {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn-border {
+  background-color: transparent;
+  border: 1px rgb(230, 21, 147) solid;
+  color: rgb(230, 21, 147);
+}
+
+.bg-primary {
+  background: rgb(230, 21, 147);
+  color: #fff;
+}
+
+.bg-light {
+  background: #fff;
+  color: rgb(230, 21, 147);
+}
+
+.bg-dark {
+  background: #000;
+  color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.2;
+  color: #fff;
+  background: #000;
+  font-family: "Lato", sans-serif;
+}
+
+img {
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  font-family: "Bebas Neue", cursive;
+  text-decoration: none;
+  color: #000;
+  color: #fff;
+}
+
+#logo a {
+  font-family: "Orbitron", sans-serif;
+  color: rgb(230, 21, 147);
+}
+
+#main-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  top: 0px;
+  background: #000;
+}
+
+#navbar {
+  padding-right: 1rem;
+}
+#navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+#navbar li {
+  padding-right: 1rem;
+}
+#navbar a {
+  font-size: 1.2rem;
+  border-bottom: 3px transparent solid;
+  padding-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+#navbar a:hover {
+  color: rgb(230, 21, 147);
+  border-color: rgb(230, 21, 147);
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+}
+#navbar a.current {
+  color: rgb(230, 21, 147);
+  border-color: rgb(230, 21, 147);
+}
+
+#showcase .showcase-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 800px;
+  background: url("../img/pic9.jpg") no-repeat center center;
+  background-size: 1500px;
+}
+#showcase .showcase-content h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  background-color: rgb(230, 21, 147);
+  padding: 1rem;
+  border-radius: 10px;
+}
+#showcase .showcase-content input {
+  margin-bottom: 1rem;
+  padding: 0.7rem 2rem;
+  width: 20%;
+  border-radius: 10px;
+  border: none;
+}
+#showcase .showcase-content a:hover {
+  background-color: #fff;
+  color: rgb(230, 21, 147);
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+#home-a {
+  position: relative;
+}
+#home-a .cards {
+  position: absolute;
+  bottom: -70px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  height: 300px;
+  margin: 0 3rem;
+}
+#home-a .card {
+  background: #ccc;
+  color: #000;
+  border-radius: 10px;
+  padding: 0 1rem;
+}
+#home-a .card a:hover {
+  background-color: rgb(230, 21, 147);
+  color: #fff;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+#home-b .gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  margin-bottom: 1rem;
+}
+#home-b .gallery .photo:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+#home-b a:hover {
+  border: 1px #fff solid;
+  color: #fff;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+#home-c img {
+  height: 500px;
+  width: 715px;
+}
+#home-c .benefits {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  margin-bottom: 1rem;
+}
+#home-c .benefits a:hover {
+  border: 1px #fff solid;
+  color: #fff;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+#home-d .slider {
+  max-width: 100rem;
+  height: 30rem;
+  margin: 0 auto;
+  position: relative;
+  /* IN THE END */
+  overflow: hidden;
+}
+#home-d .slider .slide {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 20rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* THIS creates the animation! */
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+#home-d .slider .slide blockquote {
+  font-size: 3rem;
+  font-family: "Bebas Neue", cursive;
+  margin-bottom: 1rem;
+}
+#home-d .slider .slide blockquote::before {
+  display: block;
+  content: open-quote;
+  color: rgb(230, 21, 147);
+  font-size: 5rem;
+}
+#home-d .slider .slide blockquote::after {
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  content: close-quote;
+  color: rgb(230, 21, 147);
+  font-size: 5rem;
+}
+#home-d .slider .slide .ratings {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  color: rgb(230, 21, 147);
+}
+#home-d .slider .slider__btn {
+  position: absolute;
+  top: 50%;
+  background-color: white;
+  color: rgb(230, 21, 147);
+  padding: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+}
+#home-d .slider .slider__btn:hover {
+  background-color: rgb(230, 21, 147);
+  color: #fff;
+  -webkit-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+#home-d .slider .slider__btn--left {
+  left: 3%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+#home-d .slider .slider__btn--right {
+  right: 3%;
+  -webkit-transform: translate(50%, -50%);
+          transform: translate(50%, -50%);
+}
+
+#memberships-a {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 250px;
+  background-color: rgb(230, 21, 147);
+}
+#memberships-a .section-title {
+  font-size: 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  font-weight: 1000;
+  color: #fff;
+}
+#memberships-a .lead {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+}
+#memberships-b .lead {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+#memberships-b .monthly-memberships {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+#memberships-b .monthly-memberships .card {
+  display: grid;
+  grid-template-rows: 6fr 1fr;
+  background: #fff;
+  height: 500px;
+  border-radius: 10px;
+  padding: 1rem;
+}
+#memberships-b .monthly-memberships .card .lead {
+  color: #000;
+}
+#memberships-b .monthly-memberships .card .fa-solid {
+  color: rgb(230, 21, 147);
+}
+#memberships-b .monthly-memberships .card li {
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+#memberships-b .monthly-memberships .card a:hover {
+  background-color: #000;
+  color: rgb(230, 21, 147);
+  -webkit-transition: 0.5s ease-in;
+  transition: 0.5s ease-in;
+}
+#memberships-c {
+  background-color: rgb(230, 21, 147);
+  height: 350px;
+  display: grid;
+  grid-template-rows: 1fr;
+}
+#memberships-c .sub-title {
+  color: #fff;
+  font-size: 4rem;
+}
+#memberships-c .lead {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+#memberships-c a:hover {
+  background-color: #ccc;
+  color: #000;
+  -webkit-transition: 0.5s ease-in;
+  transition: 0.5s ease-in;
+}
+#memberships-d .other-memberships {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+}
+#memberships-d .other-memberships .card {
+  display: grid;
+  grid-template-rows: 8fr 1fr;
+  background-color: #fff;
+  color: #000;
+  border-radius: 10px;
+  padding: 1rem;
+}
+#memberships-d .other-memberships .card p {
+  font-family: "Lato", sans-serif;
+}
+#memberships-d .other-memberships .card a:hover {
+  background-color: #000;
+  color: rgb(230, 21, 147);
+  -webkit-transition: 0.5s ease-in;
+  transition: 0.5s ease-in;
+}
+#memberships-e {
+  background-color: rgb(230, 21, 147);
+}
+#memberships-e .section-title {
+  color: #fff;
+  font-size: 4rem;
+}
+#memberships-e input {
+  padding: 1rem;
+  width: 30%;
+  border-radius: 10px;
+  border: none;
+}
+#memberships-e a {
+  margin-top: 1rem;
+}
+#memberships-e a:hover {
+  background-color: #000;
+  color: rgb(230, 21, 147);
+  -webkit-transition: 0.5s ease-in;
+  transition: 0.5s ease-in;
+}
+
+#login {
+  padding: 9rem 0;
+  height: 70vh;
+}
+#login h1 {
+  font-size: 4rem;
+  font-weight: 1000;
+}
+#login .forms {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 1rem;
+  margin: 0 20rem;
+}
+#login .forms .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+#login .forms .form .section-title-light {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+#login .forms .form input {
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+#login .forms .form input:last-child {
+  margin-bottom: 2rem;
+}
+#login .login-btn a {
+  width: 30%;
+  margin-bottom: 1rem;
+}
+#login .login-btn a:hover {
+  background-color: #ccc;
+  color: rgb(230, 21, 147);
+  -webkit-transition: 0.5s ease-in;
+  transition: 0.5s ease-in;
+  border: none;
+}
+#login h4 {
+  font-size: 1.5rem;
+}
+#login a:hover {
+  border: 1px #fff solid;
+  color: #fff;
+  -webkit-transition: 0.5s ease-in;
+  transition: 0.5s ease-in;
+}
+
+#main-footer {
+  background-color: #333;
+}
+#main-footer .footer-a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+#main-footer .footer-a .footer-column {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+#main-footer .footer-a .footer-column h4 {
+  font-family: "Bebas Neue", cursive;
+  line-height: 1.2;
+  color: rgb(230, 21, 147);
+}
+#main-footer .footer-a .footer-column a {
+  font-family: "Lato", sans-serif;
+  line-height: 1.5;
+}
+#main-footer .footer-a .footer-column a:hover {
+  color: rgb(230, 21, 147);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+#main-footer .footer-b {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 1rem;
+}
+#main-footer .footer-b p {
+  font-family: "Lato", sans-serif;
+  font-size: 0.7rem;
+  color: #ccc;
+}
+#main-footer .footer-b .fab:hover {
+  color: rgb(230, 21, 147);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}/*# sourceMappingURL=main.css.map */

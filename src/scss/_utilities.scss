@@ -1,0 +1,186 @@
+@use 'config' as *;
+
+.container {
+  padding: 0 1.5rem;
+  margin: 0;
+  overflow: hidden;
+}
+
+.memberships-container {
+  padding: 0 6rem;
+  margin: 0;
+  overflow: hidden;
+}
+
+.section-title {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2rem;
+  display: block;
+  padding: 1rem 0;
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: $main-color;
+}
+
+.section-title-light {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2rem;
+  display: block;
+  padding: 1rem 0;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: $light-color;
+}
+
+.sub-title {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2rem;
+  display: block;
+  padding: 1rem 0;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: $main-color;
+}
+
+.text-primary {
+  color: $dark-color;
+  font-weight: 1000;
+}
+
+.text-secondary {
+  color: $medium-color;
+}
+
+.text-logo {
+  font-family: 'Orbitron', sans-serif;
+  background-color: $dark-color;
+  color: $main-color;
+  padding: 0.5rem;
+  border-radius: 10px;
+  text-transform: none;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+#input-field {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
+}
+
+// Bottom Line
+.bottom-line {
+  height: 2px;
+  width: 3rem;
+  background-color: $main-color;
+  display: block;
+  margin: 0 auto 1rem auto;
+}
+
+.lead {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.cite {
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Lato', sans-serif;
+  color: $main-color;
+  font-size: 1.5rem;
+}
+
+.clr {
+  clear: both;
+}
+
+// Padding
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 2rem 0;
+}
+
+.py-3 {
+  padding: 3rem 0;
+}
+
+.py-4 {
+  padding: 4rem 0;
+}
+
+// Margin
+.mb-1 {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.mb-3 {
+  margin-bottom: 3rem;
+}
+
+.mb-4 {
+  margin-bottom: 4rem;
+}
+
+// Buttons
+.btn {
+  display: inline-block;
+  padding: 0.7rem 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: none;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.5rem;
+}
+
+.btn-primary {
+  background-color: $main-color;
+  color: $light-color;
+}
+
+.btn-light {
+  background-color: $light-color;
+  color: $main-color;
+}
+
+.btn-dark {
+  background-color: $dark-color;
+  color: $light-color;
+}
+
+.btn-border {
+  background-color: transparent;
+  border: 1px $main-color solid;
+  color: $main-color;
+}
+
+// Backgrounds
+.bg-primary {
+  background: $main-color;
+  color: $light-color;
+}
+
+.bg-light {
+  background: $light-color;
+  color: $main-color;
+}
+
+.bg-dark {
+  background: $dark-color;
+  color: $light-color;
+}
