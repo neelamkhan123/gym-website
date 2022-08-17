@@ -191,6 +191,11 @@ body {
   color: #fff;
   background: #000;
   font-family: "Lato", sans-serif;
+  overflow: scroll;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 img {
@@ -701,4 +706,174 @@ a {
   color: rgb(230, 21, 147);
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
+}
+
+@media (max-width: 1024px) {
+  .lead {
+    font-size: 1rem;
+  }
+  .section-title {
+    font-size: 1.5rem;
+  }
+  .sub-title {
+    font-size: 1.5rem;
+  }
+  .btn {
+    font-size: 1rem;
+  }
+  .text-primary {
+    font-size: 0.6rem;
+  }
+  .text-secondary {
+    font-size: 0.6rem;
+  }
+  #home-a .cards {
+    margin: 0;
+  }
+  #home-a .cards .card {
+    width: 285px;
+  }
+  #home-d {
+    display: none;
+  }
+  #memberships-a .section-title {
+    font-size: 2.5rem;
+  }
+  #memberships-a .lead {
+    font-size: 1rem;
+  }
+  #memberships-d .other-memberships .card p {
+    font-size: 0.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 1.2rem;
+  }
+  .sub-title {
+    font-size: 1.2rem;
+  }
+  #home-a .cards {
+    margin: 0;
+  }
+  #home-a .cards .card {
+    width: 200px;
+  }
+  #home-c .benefits {
+    width: 1450px;
+    margin-bottom: 3rem;
+  }
+  #home-c .benefits .btn-border {
+    color: rgb(230, 21, 147);
+    border: 1px #fff solid;
+  }
+  #home-c .benefits .img {
+    display: none;
+  }
+  #home-d {
+    display: none;
+  }
+  #memberships-a .section-title {
+    font-size: 1.6rem;
+  }
+  #memberships-a .lead {
+    font-size: 0.8rem;
+  }
+  #memberships-b .lead {
+    font-size: 0.8rem;
+  }
+  #memberships-b .monthly-memberships .card .lead {
+    font-size: 1rem;
+  }
+  #memberships-d .other-memberships .card p {
+    font-size: 0.8rem;
+  }
+  #login .forms {
+    margin: 0 6rem;
+  }
+}
+@media (max-width: 426px) {
+  .text-primary {
+    font-size: 0.4rem;
+  }
+  .text-secondary {
+    font-size: 0.4rem;
+  }
+  .memberships-container {
+    padding: 0 1rem;
+  }
+  #input-field {
+    font-size: 0.5rem;
+  }
+  #main-nav {
+    position: absolute;
+  }
+  #home-a {
+    height: 500px;
+  }
+  #home-a .cards {
+    position: absolute;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 700px;
+  }
+  #home-a .cards .card {
+    width: 350px;
+    height: 300px;
+  }
+  #home-b .gallery {
+    grid-template-columns: 1fr;
+  }
+  #home-c .benefits {
+    width: 750px;
+  }
+  #home-d {
+    display: none;
+  }
+  #memberships-a .section-title {
+    font-size: 1rem;
+  }
+  #memberships-a .lead {
+    font-size: 0.9rem;
+  }
+  #memberships-b .lead {
+    font-size: 0.8rem;
+  }
+  #memberships-b .monthly-memberships {
+    grid-gap: 0.4rem;
+  }
+  #memberships-b .monthly-memberships .card .lead {
+    font-size: 0.7rem;
+  }
+  #memberships-b .monthly-memberships .card li {
+    margin-bottom: 0rem;
+  }
+  #memberships-d .other-memberships {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0.4rem;
+  }
+  #memberships-d .other-memberships .card {
+    height: 400px;
+  }
+  #memberships-d .other-memberships .card p {
+    font-size: 0.8rem;
+  }
+  #memberships-d .other-memberships .card p .text-primary {
+    font-size: 0.7rem;
+  }
+  #login .section-title {
+    font-size: 2rem;
+  }
+  #login .forms {
+    margin: 0 1rem;
+  }
+  #main-footer .footer-a .footer-column a {
+    font-size: 0.7rem;
+  }
 }/*# sourceMappingURL=main.css.map */
